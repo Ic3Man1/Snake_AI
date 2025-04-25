@@ -1,17 +1,26 @@
-# Snake Game (Pygame)
+# Snake Game (Pygame + Reinforcement Learning)
 
-This project is a simple implementation of the classic Snake game using Python and Pygame.
+This project is an implementation of the classic Snake game using Python and Pygame,
+augmented with a reinforcement learning AI agent that learns to play the game through trial and error.
 
-It was created by following this tutorial:  
+It was built by following this tutorial:  
 [Build the Snake Game with Python and Pygame - YouTube](https://www.youtube.com/watch?v=L8ypSXwyBds)  
-(by Python Engineer)
+(by freeCodeCamp.org)
 
 ## Features
 
 - Snake grows when it eats food
 - Game over when the snake hits the wall or itself
-- Clean and readable Pygame-based code
+- Clean and modular Pygame-based code
 - Score tracking
+- Deep Q-Learning agent that learns to play using reinforced learning
+
+## How it works
+
+An AI agent is trained using Deep Q-Learning to play the Snake game. When you run the program,
+you will observe the agent learning in real-time. At first, the movements may seem random or ineffective, 
+but as training continues, the AI gradually learns to survive longer and improve its score. 
+This demonstrates how reinforcement learning allows agents to improve through experience.
 
 ## How to Run
 

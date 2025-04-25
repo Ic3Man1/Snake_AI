@@ -4,7 +4,7 @@ This project is an implementation of the classic Snake game using Python and Pyg
 augmented with a reinforcement learning AI agent that learns to play the game through trial and error.
 
 It was built by following this tutorial:  
-[Build the Snake Game with Python and Pygame - YouTube](https://www.youtube.com/watch?v=L8ypSXwyBds)  
+[Python + PyTorch + Pygame Reinforcement Learning – Train an AI to Play Snake - YouTube](https://www.youtube.com/watch?v=L8ypSXwyBds)  
 (by freeCodeCamp.org)
 
 ## Features
